@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cricket-features</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <style>
+        body {
+            background-color: #f9f9fb;
+        }
+
+        #features_navbar {
+            background-color: white;
+            height: 12vh;
+            display: flex;
+            align-items: center;
+        }
+
+        #features_navbar>div {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 50vw;
+            font-size: 17px;
+        }
+        #features_navbar>div>a:nth-child(2) {
+            font-weight: bold;
+        }
+
+        #features_navbar>div>a:nth-child(2):hover {
+            color: rgb(53, 138, 235);
+        }
+
+        #features_navbar>div a:hover {
+            color: rgb(53, 138, 235);
+        }
+
+        #features_navbar>div i:hover {
+            color: rgb(53, 138, 235);
+        }
+        
+        #first_nav_p {
+            padding-right: 2vw;
+            border-right: 1px solid grey;
+            font-weight: bold;
+            color: black;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(99, 92, 92);
+        }
+
+        a:nth-child(2) {
+            color: black;
+        }
+        h1{
+            margin-left: 1vw;
+        }
+        #Ri-features_main {
+            padding: 0.1% 0 0 1vw;
+            width: 70vw;
+            border: 1px solid gray;
+            border-radius: 10px;
+        }
+
+        #Ri-features_childs img {
+            width: 22vw;
+            border-radius: 5%;
+            transition: 0.7s;
+            /* overflow: hidden; */
+        }
+        #Ri-features_childs img:hover {
+            transform: scale(1.2);
+            /* width: 22vw;
+            height: 25vh; */
+        }
+        #Ri-features_childs{
+            margin-left: 1vw;
+         }
+        #Ri-features_childs>div {
+            display: flex;
+            align-items: center;
+            margin: 0 1vw;
+            gap: 2vw;
+            margin:3vh 0;
+        }
+        #Ri-features_childs>div>a:last-child{
+            margin-top: -8vh;
+        }
+        #small_div{
+            display: flex;
+            color: rgb(99, 92, 92);
+            width:14vw;
+            justify-content: space-between;
+            margin-top: -4vh;
+        }
+        .para{
+            margin-top: -2vh;
+        }
+        hr{
+            width: 102.7%;
+            color: rgb(99, 92, 92);
+            margin-left: -2vw;
+        }
+        .img_div{
+            height: 100%;
+            width:38%;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="features_navbar">
+        <div>
+            <a href="#">
+                <p id="first_nav_p" class="nav_heading">Features</p>
+            </a>
+            <a href="#">
+                <p>Features home</p>
+            </a>
+            <a href="#">
+                <p>Writers</p>
+            </a>
+            <a href="#">
+                <p>The Cricket Monthly <i class="bi bi-arrow-up-right-square"></i>
+            </a>
+            </p></a>
+            <a href="#">
+                <p>Photo Galleries</p>
+            </a>
+        </div>
+    </div>
+    <div id="Ri-features_main">
+        <h1>Features</h1>
+        <div id="Ri-features_childs"></div>
+    </div>
+</body>
+
+</html>
+<script src="./featureshome.js" type="module"></script>
