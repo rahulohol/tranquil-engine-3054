@@ -1,0 +1,76 @@
+let arr= [
+    {
+        time: "TODAY.7:00PM",
+        team1: "India",
+        team2: "South Africa",
+        flag1: "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313100/313128.logo.png",
+        flag2: "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313100/313125.logo.png",
+        start:"Match starts in 4hrs 43mins",
+        undarr:["schedule","fantacy", "videos", "series"]
+    }
+    {
+        time: "TODAY.7:00PM",
+        team1: "SOA",
+        team2: "TAS",
+        flag1: "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313200/313234.logo.png",
+        flag2: "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313200/313235.logo.png",
+        start:"Match starts in 4hrs 43mins",
+        undarr:["schedule","fantacy", "videos", "series"]
+    }
+     {
+        time: "TODAY.7:00PM",
+        team1: "Pakistan",
+        team2: "England",
+        flag1: "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313100/313129.logo.png",
+        flag2: "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313100/313114.logo.png",
+        start:"Match starts in 4hrs 43mins",
+        undarr:["schedule","fantacy", "videos", "series"]
+    }
+      {
+        time: "TODAY.7:00PM",
+        team1: "JTK",
+        team2: "SLK",
+        flag1: "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313400/313483.logo.png",
+        flag2: "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/325900/325975.png",
+        start:"Match starts in 4hrs 43mins",
+        undarr:["schedule","fantacy", "videos", "series"]
+    }
+]
+
+
+   {
+        time: "TODAY.7:00PM",
+        team1: "Pakistan",
+        team2: "England",
+        flag1: "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313100/313129.logo.png",
+        flag2: "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313100/313114.logo.png",
+        start:"Match starts in 4hrs 43mins",
+        undarr:["schedule","fantacy", "videos", "series"]
+    }
+    {
+        time: "TODAY.7:00PM",
+        team1: "JT",
+        team2: "SLK",
+        flag1: "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313400/313483.logo.png",
+        flag2: "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/325900/325975.png",
+        start:"Match starts in 4hrs 43mins",
+        undarr:["schedule","fantacy", "videos", "series"]
+    }
+     {
+        time: "TODAY.7:00PM",
+        team1: "SOM",
+        team2: "KENT",
+        flag1: "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313200/313276.logo.png",
+        flag2: "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313200/313268.logo.png",
+        start:"Match starts in 4hrs 43mins",
+        undarr:["schedule","fantacy", "videos", "series"]
+    }
+      {
+        time: "TODAY.7:00PM",
+        team1: "GLOUC",
+        team2: "YORKS",
+        flag1: "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313200/313265.logo.png",
+        flag2: "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/313200/313281.logo.png",
+        start:"Match starts in 4hrs 43mins",
+        undarr:["schedule","fantacy", "videos", "series"]
+    }
