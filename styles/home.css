@@ -53,7 +53,6 @@ a{
 }
 #pr_img{
     position: absolute;
-    border: 1px solid;
     width: 40%;
     height: 500px;
     top: 10%;
@@ -64,7 +63,7 @@ a{
     position: absolute;
     border: 0.5px solid;
     width: 20%;
-    height: 1000px;
+    height: auto;
     top: 0px;
     right: 10%;
     margin-top: 6%;
@@ -100,4 +99,71 @@ a{
 #pr_btn>button:hover{
     background-color: white;
     color: #03a9f4;
+}
+#pr_img>div>img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px; 
+    transition: transform .2s;
+    overflow: hidden;
+}
+#pr_img>div{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+#pr_img>div>div{
+    padding: 10px;
+}
+#pr_img>div>div>h3{
+    margin-top: 10px;
+    color: rgb(206, 206, 201);
+}
+#pr_img>div>img:hover{
+    transform: scale(1.01); 
+}
+#pr_facts>div:nth-child(1){
+    border: 0.5px solid;
+    padding: 10px;
+}
+#pr_facts>div:nth-child(2){
+    border: 0.5px solid;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+#pr_facts>div:nth-child(3)>div>img{
+     width: 100px;
+     border-radius: 50px;
+}
+#pr_facts>div:nth-child(3)>div{
+    border: 1px solid;
+    position: relative;
+}
+.name{
+    position: absolute;
+    display: flex;
+    top:0px;
+    right: 90px;
+    gap: 2px;
+    padding: 5px;
+}
+.score{
+    position: absolute;
+    display: flex;
+    top:30px;
+    right: 90px;
+    gap: 2px;
+    padding: 5px;
+}
+.avg{
+    position: absolute;
+    display: flex;
+    bottom:0px;
+    right: 90px;
+    gap: 2px;
+    padding: 5px;
+}
+.stats{
+    text-align: center;
+    padding: 5px;
 }
