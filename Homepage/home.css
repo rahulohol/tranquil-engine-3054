@@ -7,7 +7,7 @@
     background-color: #0398dc;
     font-size: small;
     margin: auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
    box-sizing: content-box;
 }
 /* #ra_scorecardstop p{
@@ -69,163 +69,232 @@
 
 
 
-
-
-
-
-  
-#navcontainer {
-    position: sticky;
-    display: flex;
-    width: 100%;
-    /* border: 1px solid rebeccapurple; */
-    padding: 10px;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .px-1 {
-    width: 20px;
-  }
-  
-  .px-2 {
-    width: 20px;
-  }
-  
-  .px-3 {
-    width: 20px;
-  }
-  
-  #nm2 {
-    width: 20px;
-    height: 20px;
-  }
-  
-  .px-1 text-muted {
-    width: 5px;
-  }
-  
-  .mx-3 {
-    width: 7px;
-  }
-  
-  #all {
-    display: flex;
-    /* border: 1px solid slateblue; */
-    align-items: center;
-    height: 50%;
-    padding: 5px;
-  
-  }
-  
-  #all>div {
-    margin-left: 8px;
-  }
-  
-  #nm1 {
-    width: 200px;
-  }
-  
-  .sbar {
-    /* border: 1px solid red; */
-    position: relative;
-    align-items: center;
-    height: 50%;
-  }
-  
-  .sbar>input {
-    border: 0px solid transparent;
-    height: 42px;
-    border: 1px solid rgb(248, 248, 248);
-    background-color: white;
-    /* position: absolute; */
-    width: 280px;
-    padding: 15px;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-  }
-  
-  .sbar>button {
-    border: 0px solid transparent;
-    height: 100%;
-    
-    height: 42px;
-    width: 85px;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    background-color: black;
-    color: white;
-  
-  }
-  
-  #asbar {
-    display: flex;
-    /* border: 1px solid hotpink; */
-    align-items: center;
-    height: 50%;
-    padding: 6px;
-    
-  
-  }
-  
-  #header {
-    
-    position: sticky;
-    top: 0;
-    left: 0;
-    right: 0;
-    background: white;
-    padding: 20px 7%;
-    
-  
-  
-  }
-  
-  #header .navbar ul {
+/* 
+  .nav_li ul {
     list-style: none;
-  }
-  
-  #header .navbar ul li {
     position: relative;
-    float: left;
-  }
-  
-  #header .navbar ul li a {
-    font-size: 15px;
-    padding: 20px;
-    color: #333;
-    display: block;
-    line-height: 15px;
-    margin: -5px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav_li ul a {
+    color: white;
     text-decoration: none;
-  }
-  
-  #header .navbar ul li a:hover{
-    background:white;
-    
-    color:gray;
-  }
-  
-  #header .navbar ul li ul {
+    font-size: 15px;
+    padding: 14px 12px;
+    display: block;
+}
+
+.nav_li ul li {
+    float: left;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav_li ul ul {
     position: absolute;
-    left: 0;
-    width: 200px;
+    background-color: rgb(252, 252, 252);
+    top: 100%;
     display: none;
-    z-index: 1000;
-  }
-  #header .navbar ul li ul li{
-    width: 100%;
-    
-    position:initial;
-    z-index: 1000;
-   }
-  #header .navbar ul li ul li ul {
-    left: 115px;
-    top: 0;
-    z-index: 1000;
-  }
-  #header .navbar ul li:hover > ul {
-    display: initial;
-    background-color: white;
-    z-index: 1000;
-  }
+}
+
+.nav_li ul li:hover>ul {
+    display: block;
+    width: auto;
+    min-width: 250px;
+    border-radius: 10px;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 250px;
+}
+
+.dropdownteam {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 175px;
+}
+
+.dropdownbig {
+    display: flex;
+    width: 500px;
+}
+
+.dropdown>li>a,
+.dropdownteam>li>a {
+    color: rgb(109, 108, 108);
+    padding: 10px 12px;
+}
+
+.dropdown>li>a:hover,
+.dropdownteam>li>a:hover {
+    color: rgb(4, 4, 4);
+    font-size: 16px;
+    font-weight: bold;
+} */
+
+
+
+
+.nav_li ul {
+  list-style: none;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav_li ul a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 14px 12px;
+  display: block;
+}
+
+.nav_li ul li {
+  float: left;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav_li ul ul {
+  position: absolute;
+  background-color: rgb(252, 252, 252);
+  top: 100%;
+  display: none;
+}
+
+.nav_li ul li:hover>ul {
+  display: block;
+  width: auto;
+  min-width: 250px;
+  border-radius: 10px;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 250px;
+}
+
+.dropdownteam {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 175px;
+}
+
+.dropdownbig {
+  display: flex;
+  width: 500px;
+}
+
+.dropdown>li>a,
+.dropdownteam>li>a {
+  color: rgb(109, 108, 108);
+  padding: 10px 12px;
+}
+
+.dropdown>li>a:hover,
+.dropdownteam>li>a:hover {
+  color: rgb(4, 4, 4);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f8f9fa;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: BentonSans, Arial, Noto Sans, sans-serif;
+}
+
+#titlelogo {
+  border-radius: 50%;
+}
+
+#headerMain {
+  width: 100%;
+  background-color: #038dcc;
+  height: 190px;
+}
+
+#headerSec {
+  width: 100%;
+  height: 45px;
+  position: sticky;
+  top: 0;
+  display: flex;
+}
+
+#headerSecond {
+  width: 100%;
+  background-color: #03a9f4;
+  height: 45px;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#btn {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  padding-top: 15px;
+}
+
+#btn>button {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+  position: relative;
+}
+
+button::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 0;
+  height: 1px;
+  background-color: rgb(255, 255, 255);
+}
+
+button:hover::before {
+  width: 100%;
+  height: 2px;
+}
+.iplLogo{
+  width: 25px;
+  padding: 5px 10px;
+}
+.iplTeamName{
+  display: flex;
+}

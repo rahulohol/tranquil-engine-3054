@@ -26,12 +26,19 @@
         </div>
         <div id="ra_topcards"></div>
     </div>
-    <div>
+    <!-- <div>
         <button onclick="prev()">prev</button>
         <button onclick="next()">Next</button>
-    </div>
-
+    </div> -->
+<div id="headerSec"></div>
 
 </body>
 </html>
 <script src="./index.js"></script>
+<script type="module">
+import { headerSecond } from "../components/headerSecond.js"
+document.getElementById('headerSec').append(headerSecond())
+
+// import { rightContent } from "../component/rightContent.js"
+// document.getElementById('right').append(rightContent())
+</script>
