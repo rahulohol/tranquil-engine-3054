@@ -1,7 +1,7 @@
 import data from "./components/data.js"
 // let lastIndex=data.length;
 // let url2="https://newsapi.org/v2/top-headlines?in&category=sports&apiKey=6e7ce7e589304e10989333c5f29e0aad";
-let url="https://newsapi.org/v2/top-headlines?country=in&category=sports&q=cricket&apiKey=6e7ce7e589304e10989333c5f29e0aad"
+let url="https://newsapi.org/v2/everything?q=cricket&apiKey=6e7ce7e589304e10989333c5f29e0aad"
 let renderDom=(data)=>{
     let container=document.getElementById("Ri-features_childs")
     container.innerHTML=null;
@@ -47,7 +47,7 @@ let renderDom=(data)=>{
             main.append(img_div,content_div)
             container.append(main,hr)
         }
-        if(urlToImage && title.length<=80){
+        if(urlToImage && title.length<=60){
             let main=document.createElement("div")
             let img_div=document.createElement("div")
             let a1=document.createElement("a")
