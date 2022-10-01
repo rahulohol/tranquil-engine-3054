@@ -82,12 +82,18 @@ let getData=async()=>{
     let res=await fetch(url);
     res=await res.json();
     res=res.articles;
-    console.log('res',res)
-    renderDom(res)
+    let data=[];
+    for(let i=0;i<res.length;i++){
+        if(i<=42){
+            data.push(res[i]);
+      }
+    }
+    renderDom(data)
 }
 getData()
 
 
+// Logical Part but not implimanting because till now its not debug
 // let names=[{n:"Ritik"},{n:"Gopal"},{n:"Atul"}];
 // // console.log('name',names[0].n)
 // let updateNames=names.filter((el)=>{
@@ -97,3 +103,4 @@ getData()
 // })
 // console.log(updateNames)
 // // console.log(names[0].n.includes("Ritik"))
+

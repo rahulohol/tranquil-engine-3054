@@ -1,5 +1,4 @@
 import writersData from "./components/writersData.js"
-console.log(writersData)
 let url="https://newsapi.org/v2/everything?q=cricket&apiKey=6e7ce7e589304e10989333c5f29e0aad"
 let renderDom=(data)=>{
     let container=document.getElementById("Ri-features_childs")
@@ -79,5 +78,17 @@ let getData=async()=>{
     res=await res.json();
     res=res.articles;
     renderDom(res)
+}
+
+let renderTweets=()=>{
+    let obj= {
+        url: "https://twitter.com/TwitterDev",
+        html:"<a class=\"twitter-timeline\" href=\"https://twitter.com/TwitterDev\">Tweets by TwitterDev</a>\n<script async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
+        type: "rich",
+        cache_age: "3153600000",
+        provider_name: "Twitter",
+        provider_url: "https://twitter.com",
+        version: "1.0"
+      }
 }
 getData()
