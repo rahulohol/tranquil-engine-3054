@@ -22,6 +22,7 @@ let renderDom=(data)=>{
             p.innerText=role;
             p.setAttribute("class","para")
             t.innerText=twitter;
+            t.style.color="#1d9bf0"
             a1.append(img)
             img_div.append(a1)
             img_div.setAttribute("class","img_div")
@@ -34,7 +35,7 @@ let renderDom=(data)=>{
     })
     let container2=document.getElementById("Ri-most_read_childs")
     container2.innerHTML=null;
-    data.forEach(({urlToImage,title,content,publishedAt,author})=>{
+    data.forEach(({urlToImage,title,publishedAt,author})=>{
         let result="";
         for(let i of publishedAt){
             if(i=="T"){
@@ -43,7 +44,7 @@ let renderDom=(data)=>{
                 result+=i;
             }
         }
-        if(urlToImage && title.length<=60){
+        if(urlToImage && title.length<=55){
             let main=document.createElement("div")
             let img_div=document.createElement("div")
             let a1=document.createElement("a")
