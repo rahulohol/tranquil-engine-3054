@@ -15,7 +15,7 @@ let renderDom=(data)=>{
                 result+=i;
             }
         }
-        if(urlToImage){
+        if(urlToImage && author){
             let main=document.createElement("div")
             let img_div=document.createElement("div")
             let a1=document.createElement("a")
@@ -46,7 +46,7 @@ let renderDom=(data)=>{
             main.append(img_div,content_div)
             container.append(main,hr)
         }
-        if(urlToImage && title.length<=60){
+        if(urlToImage && title.length<=60 && author){
             let main=document.createElement("div")
             let img_div=document.createElement("div")
             let a1=document.createElement("a")

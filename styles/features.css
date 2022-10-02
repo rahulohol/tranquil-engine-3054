@@ -1,0 +1,153 @@
+body {
+    background-color: #f9f9fb;
+}
+
+h1 {
+    margin-left: 1vw;
+}
+
+#Ri-main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15vh;
+}
+
+#Ri-features {
+    padding: 0.1% 0 0 1vw;
+    width: 70vw;
+    border: 1px solid #f2e6e6;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#Ri-features_childs img {
+    width: 22.5vw;
+    border-radius: 5%;
+    transition: 0.7s;
+    height: 30vh;
+}
+
+#Ri-features_childs img:hover {
+    transform: scale(1.2);
+}
+
+#Ri-features_childs {
+    margin-left: 1vw;
+}
+
+#Ri-features_childs>div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 3vh 0;
+}
+
+#Ri-features_childs>div h3 {
+    font-size: 18px;
+    margin-top: -3px;
+}
+
+#Ri-features_childs>div>div:last-child {
+    margin-left: -10vw;
+    margin-right: 1vw;
+}
+
+#Ri-features_childs>div>div:last-child a {
+    color: black;
+}
+
+#Ri-features_childs #small_div {
+    display: flex;
+    color: rgb(99, 92, 92);
+    width: 30vw;
+    margin-top: 1vh;
+}
+
+#Ri-features_childs #small_div>p:last-child {
+    margin-left: 2vw;
+}
+
+.para {
+    margin-top: 2vh;
+}
+
+hr {
+    width: 102.7%;
+    color: rgb(99, 92, 92);
+    margin-left: -2vw;
+}
+
+.img_div {
+    height: 30vh;
+    width: 67%;
+    overflow: hidden;
+    border-radius: 5%;
+}
+
+#right-div {
+    padding: 0.1% 0 0 1vw;
+    background-color: white;
+    border-radius: 10px;
+    width: 23vw;
+    height: 100vh;
+    border: 1px solid #f2e6e6;
+}
+
+#most_read_hr {
+    margin-left: -1vw;
+    width: 20.9vw;
+}
+
+#Ri-most_read_childs .img_div {
+    height: 14vh;
+    width: 6vw;
+    overflow: hidden;
+    border-radius: 10%;
+
+}
+
+#Ri-most_read_childs img {
+    width: 6vw;
+    border-radius: 15%;
+    transition: 0.7s;
+    height: 13vh;
+}
+
+#Ri-most_read_childs img:hover {
+    transform: scale(1.2);
+}
+
+#Ri-most_read_childs>div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 1vw;
+    gap: 2vw;
+    margin: 3vh 0;
+}
+
+#Ri-most_read_childs>div h3 {
+    font-size: 14px;
+    margin-top: -3px;
+}
+
+#Ri-most_read_childs>div>div:last-child {
+    margin-left: -5vw;
+    width: 13vw;
+    margin-top: 2px;
+}
+
+#Ri-most_read_childs>div>div:last-child a {
+    color: black;
+}
+
+#Ri-most_read_childs #small_div {
+    width: 100%;
+    font-size: 11px;
+}
+
+#Ri-most_read_childs #small_div>p {
+    display: inline-block;
+}
+
+#Ri-most_read_childs #small_div>p:first-child {
+    margin-right: 4px;
+}

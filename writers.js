@@ -43,7 +43,8 @@ let renderDom=(data)=>{
                 result+=i;
             }
         }
-        if(urlToImage && title.length<=55){
+        if(urlToImage && title.length<=55 && author){
+            console.log('author',author.length)
             let main=document.createElement("div")
             let img_div=document.createElement("div")
             let a1=document.createElement("a")
