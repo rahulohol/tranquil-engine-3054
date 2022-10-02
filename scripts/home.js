@@ -481,6 +481,7 @@ function div9(data){
     p.innerText=el.dateTimeGMT;
     let h6=document.createElement("h6");
     h6.innerText=el.matchType;
+    h6.setAttribute("class","h6");
 
     div1.append(p,h6);
 
