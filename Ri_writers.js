@@ -1,4 +1,4 @@
-import writersData from "./components/writersData.js"
+import writersData from "./components/Ri_writersData.js"
 let url="https://newsapi.org/v2/everything?q=cricket&apiKey=6e7ce7e589304e10989333c5f29e0aad"
 let renderDom=(data)=>{
     let container=document.getElementById("Ri-features_childs")

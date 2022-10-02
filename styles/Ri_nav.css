@@ -25,10 +25,6 @@ body {
     font-size: 17px;
 }
 
-#features_navbar>div>a:nth-child(2) {
-    font-weight: bold;
-}
-
 #features_navbar>div>a:nth-child(2):hover {
     color: rgb(53, 138, 235);
 }
@@ -51,8 +47,4 @@ body {
 a {
     text-decoration: none;
     color: rgb(99, 92, 92);
-}
-
-a:nth-child(2) {
-    color: black;
 }
